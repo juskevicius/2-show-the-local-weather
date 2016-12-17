@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(252, 255, 89);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#cloud {
+  margin: auto;
+  display: block;
+  position: relative;
+  left: 130px;
+  top: 50px;
+}
+
+#header {
+  font-size: 46px;
+  text-align: center;
+  text-decoration: overline;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+#city {
+  font-size: 32px;
+  text-align: center;
+}
+
+#weather-conditions {
+  font-size: 36px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#temperature:hover {
+  cursor:pointer;
+}
+
+#picture {
+  vertical-align: bottom;
+  border-bottom: 3px solid black;
+  margin-bottom: 3px;
+}
